@@ -40,4 +40,18 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Important Files
+
+* make_prediction.sh: a predefined REST post to local host on port 8000. Useful for testing.
+* app.py: the main python application
+* Dockerfile: this file is blue print for building containerized python app
+* run_docker.sh: this script build the Docker image and runs it
+* upload_docker.sh: this script upload Docker image into Docker hub
+* run_kubernetes.sh: this script run the app container from image pull from Docker hub
+* requirements.txt: this file contains all the dependencies needed to run the app
+* Makefile: this file defines targets used by the make tool
+
 # udacity-devops-ml
+
+
